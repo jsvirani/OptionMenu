@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/item0"
+        android:icon="@drawable/call"
+        android:title="Item 1"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/item7"
+                android:icon="@drawable/vc_foreground"
+                android:title="Video Call">
+            </item>
+            <item
+                android:id="@+id/item8"
+                android:icon="@drawable/vc_foreground"
+                android:title="Audio Call">
+            </item>
+        </menu>
+    </item>
+        <item  android:id="@+id/item1"
+            android:title="Item 1">
+            <menu>
+                <item
+                    android:id="@+id/item6"
+                    android:title="Item 6"/>
+            </menu>
+        </item>
+        <item  android:id="@+id/item2"
+            android:title="Item 2"/>
+        <item  android:id="@+id/item3"
+            android:title="Item 3" />
+        <item  android:id="@+id/item4"
+            android:title="Item 4" />
+        <item  android:id="@+id/item5"
+            android:title="Item 5" />
+
+    </menu>
+
